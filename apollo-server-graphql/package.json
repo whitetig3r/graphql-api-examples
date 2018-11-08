@@ -1,0 +1,19 @@
+{
+  "name": "apollo-server-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production node -r esm .",
+    "dev": "NODE_ENV=development APP_PORT=5000 nodemon -r esm . "
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.2.0",
+    "esm": "^3.0.84",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
