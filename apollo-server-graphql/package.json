@@ -10,7 +10,7 @@
   "dependencies": {
     "apollo-server-express": "^2.2.0",
     "esm": "^3.0.84",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "graphql": "^14.0.2"
   },
   "devDependencies": {
